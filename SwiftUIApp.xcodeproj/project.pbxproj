@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043018D027989970006836F6 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043018CF27989970006836F6 /* FifthView.swift */; };
 		04676BBB27974DB500411251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676BBA27974DB500411251 /* AppDelegate.swift */; };
 		04676BBD27974DB500411251 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676BBC27974DB500411251 /* SceneDelegate.swift */; };
 		04676BBF27974DB500411251 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676BBE27974DB500411251 /* ContentView.swift */; };
 		04676BC127974DB600411251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04676BC027974DB600411251 /* Assets.xcassets */; };
 		04676BC427974DB600411251 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04676BC327974DB600411251 /* Preview Assets.xcassets */; };
 		04676BC727974DB600411251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04676BC527974DB600411251 /* LaunchScreen.storyboard */; };
+		04676BD02797513700411251 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676BCF2797513700411251 /* SecondView.swift */; };
+		04676BD3279759A800411251 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676BD2279759A800411251 /* ThirdView.swift */; };
+		04676BD62797669100411251 /* ForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04676BD52797669100411251 /* ForthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043018CF27989970006836F6 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 		04676BB727974DB500411251 /* SwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04676BBA27974DB500411251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04676BBC27974DB500411251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		04676BC327974DB600411251 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04676BC627974DB600411251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04676BC827974DB600411251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04676BCF2797513700411251 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		04676BD2279759A800411251 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		04676BD52797669100411251 /* ForthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				04676BC527974DB600411251 /* LaunchScreen.storyboard */,
 				04676BC827974DB600411251 /* Info.plist */,
 				04676BC227974DB600411251 /* Preview Content */,
+				04676BCF2797513700411251 /* SecondView.swift */,
+				04676BD2279759A800411251 /* ThirdView.swift */,
+				04676BD52797669100411251 /* ForthView.swift */,
+				043018CF27989970006836F6 /* FifthView.swift */,
 			);
 			path = SwiftUIApp;
 			sourceTree = "<group>";
@@ -146,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04676BBB27974DB500411251 /* AppDelegate.swift in Sources */,
+				04676BD3279759A800411251 /* ThirdView.swift in Sources */,
+				04676BD62797669100411251 /* ForthView.swift in Sources */,
 				04676BBD27974DB500411251 /* SceneDelegate.swift in Sources */,
+				04676BD02797513700411251 /* SecondView.swift in Sources */,
+				043018D027989970006836F6 /* FifthView.swift in Sources */,
 				04676BBF27974DB500411251 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
